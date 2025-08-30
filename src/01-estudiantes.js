@@ -1,4 +1,4 @@
-// Taller: Paradigmas - Ejercicio 1 (Paradigma funcional)
+// Taller: Paradigmas - GESTIÓN DE ESTUDIANTES (Paradigma Funcional)
 // Tareas:
 // - Encuentra todos los estudiantes de JavaScript con nota > 80
 // - Calcula el promedio de notas de todos los estudiantes

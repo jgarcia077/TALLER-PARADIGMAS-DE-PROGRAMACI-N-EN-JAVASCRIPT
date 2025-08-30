@@ -1,4 +1,4 @@
-// Taller: Paradigmas - Ejercicio 3 (Paradigma Procedural)
+// Taller: Paradigmas - VALIDACIÓN DE DATOS (Paradigma Procedural)
 // Implementa funciones para validar diferentes tipos de datos:
 // - validateEmail(email) - verifica formato de email
 // - validatePassword(password) - verifica fortaleza de contraseña

@@ -1,10 +1,13 @@
-// ejercicio2-poo.js
-// Taller: Paradigmas - Ejercicio 2 (Paradigma Orientado a Objetos)
+// Taller: Paradigmas - CALCULADORA DE PRODUCTOS (Paradigma Orientado a Objetos)
+// Crea una clase Product con las siguientes características:
+// - Propiedades: id, name, price, category, stock
+// - Métodos: updateStock(), calculateDiscount(), getInfo()
+//- Método estático: getTotalValue(products)
+
 // Tareas:
-// - Crear clase Product con propiedades y métodos
-// - Crear 5 productos diferentes
-// - Calcular valor total del inventario
-// - Aplicar descuento por categoría
+// - Crea 5 productos diferentes
+// - Implementa un método para calcular el valor total del inventario
+// - Crea un método que aplique descuento por categoría
 
 class Product {
   constructor(id, name, price, category, stock) {
