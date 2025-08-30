@@ -37,3 +37,34 @@ class Product {
 }
 
 // Crear 5 productos
+const products = [
+  new Product(1, "Portatil", 3000, "Electronics", 10),
+  new Product(2, "Mouse", 50, "Electronics", 100),
+  new Product(3, "Silla", 400, "Furniture", 15),
+  new Product(4, "Escritorio", 600, "Furniture", 8),
+  new Product(5, "Monitor", 800, "Electronics", 20),
+];
+
+// Mostrar información de los productos
+console.log(" EJERCICIO 2: PRODUCTOS (POO) \n");
+
+products.forEach(p => console.log(p.getInfo()));
+console.log("");
+
+// Valor total del inventario
+const totalValue = Product.getTotalValue(products);
+console.log(" Valor total del inventario:", totalValue);
+console.log("");
+
+// Descuento en categoría "Electronics" (10%)
+const electronicsDiscount = products
+  .filter(p => p.category === "Electronics")
+  .map(p => ({
+    name: p.name,
+    original: p.price,
+    discount: p.calculateDiscount(10)
+  }));
+
+console.log(" Electronicos con 10% descuento:", electronicsDiscount);
+
+console.log("\n FIN EJERCICIO 2 ");
