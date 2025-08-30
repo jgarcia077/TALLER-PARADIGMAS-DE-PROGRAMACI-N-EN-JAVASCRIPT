@@ -1,4 +1,3 @@
-// ejercicio1-funcional.js
 // Taller: Paradigmas - Ejercicio 1 (Paradigma funcional)
 // Tareas:
 // - Encuentra todos los estudiantes de JavaScript con nota > 80
@@ -8,11 +7,11 @@
 
 // Datos de ejemplo (puedes modificar/añadir estudiantes)
 const students = [
-  { name: "Ana", course: "JavaScript", grade: 85, age: 22 },
-  { name: "Luis", course: "Python", grade: 90, age: 19 },
-  { name: "Marta", course: "JavaScript", grade: 75, age: 25 },
-  { name: "Carlos", course: "JavaScript", grade: 95, age: 21 },
-  { name: "Lucía", course: "Java", grade: 88, age: 23 },
+  { id: 1, name: "Ana", age: 20, grade: 85, course: "JavaScript" },
+  { id: 2, name: "Carlos", age: 22, grade: 92, course: "Python" },
+  { id: 3, name: "María", age: 19, grade: 78, course: "JavaScript" },
+  { id: 4, name: "Luis", age: 21, grade: 88, course: "Java" },
+  { id: 5, name: "Sofia", age: 20, grade: 95, course: "JavaScript" }
 ];
 
 // 1) Estudiantes de JavaScript con nota > 80
@@ -73,4 +72,4 @@ console.log("");
 const top = getTopStudent(students);
 console.log("4) Estudiante con la nota más alta:");
 console.log(top);
-console.log("\n=== FIN EJERCICIO 1 ===");
+console.log("\n FIN EJERCICIO 1");
