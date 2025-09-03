@@ -15,23 +15,21 @@ Incluye 5 ejercicios que aplican distintos paradigmas de programación en JavaSc
 ##  Estructura del Repositorio
 
 Taller-paradigmas-js
-│
-├── README.md
-├── package.json
-├── src/
-│ ├── 01-estudiantes.js
-│ ├── 02-productos.js
-│ ├── 03-validacion.js
-│ ├── 04-filtros.js
-│ └── 05-transformacion.js
-│
-├── tests/ # opcional (archivos de prueba)
-│
-└── docs/
-└── explicaciones.md
 
+ README.md
+ package.json
+  src/
+   01-estudiantes.js
+   02-productos.js
+   03-validacion.js
+   04-filtros.js│  
+   05-transformacion.js
 
----
+  tests/ # opcional (archivos de prueba)
+
+   docs/
+    explicaciones.md
+
 
 ##  Instrucciones de Ejecución
 
